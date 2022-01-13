@@ -1,0 +1,140 @@
+#scriptCodingRight.side-bar {
+    width: 40px;
+    position: fixed;
+    top: 400px;
+    right: 0px;
+    font-size: 12px;
+    line-height: 0;
+    z-index: 99999;
+    text-align: center;
+}
+
+#scriptCodingRight.side-bar span {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    cursor: pointer;
+    display: inline-block;
+    background-color: #ddd;
+    margin-bottom: 2px;
+}
+
+#scriptCodingRight.side-bar span:hover {
+    background-color: #669fdd;
+}
+
+#scriptContextDiv {
+    background: #669fdd;
+    opacity: 0.92;
+    color: #ffffff;
+    overflow: hidden;
+    z-index: 99999;
+    position: fixed;
+    padding: 5px;
+    text-align: center;
+    width: 800px;
+    height: 500px;
+    top: 15%;
+    right: 10%;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+#scriptContextDiv_tab {
+    width: 100%;
+    height: 5%;
+    cursor: move;
+}
+
+#scriptContextDiv_close {
+    float: right;
+    font-size: 16px;
+    margin-right: 8px;
+    margin-top: 4px;
+    cursor: pointer;
+}
+#scriptContextDiv .editDiv {
+    height: 85%;
+    width: 100%;
+    padding-bottom: 15px;
+    font: 16px Arial, sans-serif;
+}
+#scriptContextDiv .codeTextarea {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-top: none;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+#scriptContextDiv .codeTextarea:focus {
+    outline-style: none;
+}
+#scriptContextDiv .tabs_div {
+    background: #f5f5f5;
+    text-align: left;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#scriptContextDiv .tabs_span {
+    border: 1px solid #ccc;
+    text-align: center;
+    cursor: pointer;
+    background: #f5f5f5;
+    color: black;
+    display: inline-block;
+    width: 55px;
+    height: 24px;
+    line-height: 24px;
+    border-bottom: none;
+    margin-right: 10px;
+}
+#jsApplyMenu {
+    width: 100px;
+    display: none;
+    overflow: hidden;
+    z-index: 9999999;
+    position: fixed;
+    background: #f5f5f5;
+    box-shadow: 0 1px 1px #888,1px 0 1px #ccc;
+}
+#jsApplyMenu .js_menu {
+    width: 100%;
+    text-align: center;
+    height: 25px;
+    line-height: 25px;
+    cursor: pointer;
+}
+#codeTipsMenu {
+    display: none;
+    overflow: hidden;
+    z-index: 9999999;
+    position: fixed;
+    background: #fff;
+    min-width: 100px;
+    box-shadow: 0 1px 1px #888,1px 0 1px #ccc;
+}
+#codeTipsMenu .code_tips {
+    width: 100%;
+    text-align: left;
+    height: 25px;
+    line-height: 25px;
+    cursor: pointer;
+}
+#codeTipsMenu .code_tips:hover {
+    background-color: #C1E1E6;
+}
+#codeTipsMenu .select {
+    background: pink;
+}
+.element_show_style_1:before{content:"↓↓↓";color:red;font-weight:bold;display: block;}
+.element_show_style_1:after{content:"↑↑↑";color:red;font-weight:bold;display: block;}
+.element_show_style_2:before{content:"【";color:red;background-color:yellow;font-weight:bold;}
+.element_show_style_2:after{content:"】";color:red;background-color:yellow;font-weight:bold;}
+.element_show_style_3{border: 1px solid red;}
+.element_show_style_4{color:red;background-color:yellow;}
